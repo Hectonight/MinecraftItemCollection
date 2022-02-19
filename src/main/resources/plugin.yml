@@ -1,0 +1,36 @@
+name: MinecraftItemCollection
+version: 1
+main: me.hecto.minecraftitemcollection.MinecraftItemCollection
+api-version: 1.18
+authors: [ Hectonite ]
+description: An Item Collection Tracker for Minecraft
+
+
+commands:
+  itemsAdd:
+    description: Sets Item to "true" in items.properties.
+    usage: /<command> [item]
+
+  itemsRemove:
+    description: Sets Item to "false" in items.properties.
+    usage: /<command> [item]
+
+  itemsClear:
+    description: Sets all items to "false" in items.properties.
+    usage: /<command>
+
+  itemsScore:
+    description: Tells player how many items have been collected
+    usage: /<command>
+
+  itemsObtained:
+    description: Pulls a GUI of how the items that have been collected
+    usage: /<command>
+
+  itemsLeft:
+    description: Pulls a GUI of how the items that have not been collected
+    usage: /<command>
+
+  itemsIgnore:
+    description: Ignores a certain item
+    usage: /<command> [item]
