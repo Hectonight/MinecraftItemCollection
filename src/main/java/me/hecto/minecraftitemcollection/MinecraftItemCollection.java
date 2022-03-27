@@ -28,7 +28,6 @@ public final class MinecraftItemCollection extends JavaPlugin implements Listene
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("Custom Plugin has started");
         getServer().getPluginManager().registerEvents(this,this);
         ItemsLeft guiLeft = new ItemsLeft();
         ItemsObtained guiObtained = new ItemsObtained();
